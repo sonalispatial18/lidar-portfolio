@@ -169,7 +169,13 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#what-i-can-deliver" id="toc-what-i-can-deliver" class="nav-link active" data-scroll-target="#what-i-can-deliver">What I can deliver</a></li>
-  <li><a href="#present-learning-curve" id="toc-present-learning-curve" class="nav-link" data-scroll-target="#present-learning-curve">Present learning curve</a></li>
+  <li><a href="#present-learning-curve" id="toc-present-learning-curve" class="nav-link" data-scroll-target="#present-learning-curve">Present learning curve</a>
+  <ul class="collapse">
+  <li><a href="#urban-tree-detection" id="toc-urban-tree-detection" class="nav-link" data-scroll-target="#urban-tree-detection">🌳 Urban tree detection</a></li>
+  <li><a href="#agb-and-carbon-mapping" id="toc-agb-and-carbon-mapping" class="nav-link" data-scroll-target="#agb-and-carbon-mapping">🌲 AGB and carbon mapping</a></li>
+  <li><a href="#geoai-vs-lidar-urban-site" id="toc-geoai-vs-lidar-urban-site" class="nav-link" data-scroll-target="#geoai-vs-lidar-urban-site">🛰️ GeoAI vs LiDAR — urban site</a></li>
+  <li><a href="#geoai-vs-lidar-forest-site" id="toc-geoai-vs-lidar-forest-site" class="nav-link" data-scroll-target="#geoai-vs-lidar-forest-site">🌿 GeoAI vs LiDAR — forest site</a></li>
+  </ul></li>
   <li><a href="#past-works" id="toc-past-works" class="nav-link" data-scroll-target="#past-works">Past works</a></li>
   <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
   <li><a href="#lets-work-together" id="toc-lets-work-together" class="nav-link" data-scroll-target="#lets-work-together">Let’s work together</a></li>
@@ -252,32 +258,66 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="present-learning-curve">Present learning curve</h2>
 <p><em>Actively building · open data · reproducible Python pipelines</em></p>
 <p>End-to-end workflows from raw airborne LiDAR to individual tree inventories, carbon stock maps, and GeoAI accuracy assessments — built on open Helsinki City data. Every notebook runs top to bottom.</p>
-<div class="grid">
-<div class="g-col-6">
-<p><a href="https://github.com/sonalispatial18/sonali-geo/blob/main/notebooks/01_lidar_tree_detection.ipynb"><img src="images/notebooks/01_tree_detection.jpg" class="img-fluid"></a></p>
-<p><a href="https://github.com/sonalispatial18/sonali-geo/blob/main/notebooks/01_lidar_tree_detection.ipynb"><img src="images/notebooks/01_BU_Veg.jpg" class="img-fluid"></a></p>
-<p><strong>Urban tree detection</strong> Fully automated individual tree inventory from raw <code>.laz</code> point cloud — locations, heights, crown extents. Directly usable for green infrastructure audits and urban forest management plans.</p>
-<p><a href="https://github.com/sonalispatial18/sonali-geo/blob/main/notebooks/01_lidar_tree_detection.ipynb">View notebook →</a></p>
-</div>
-<div class="g-col-6">
-<p><a href="https://github.com/sonalispatial18/sonali-geo/blob/main/notebooks/04_agb_carbon_mapping.ipynb"><img src="images/notebooks/04_AGB.jpg" class="img-fluid"></a></p>
-<p><strong>AGB and carbon mapping</strong> Wall-to-wall carbon stock map at individual crown resolution. Repola (2008) allometrics, IPCC Tier-1 carbon conversion — reportable for voluntary carbon markets and municipal climate accounts.</p>
-<p><a href="https://github.com/sonalispatial18/sonali-geo/blob/main/notebooks/04_agb_carbon_mapping.ipynb">View notebook →</a></p>
-</div>
-<div class="g-col-6">
-<p><a href="https://github.com/sonalispatial18/sonali-geo/blob/main/notebooks/02_Urban_geoai_vs_lidar_validation.ipynb"><img src="images/notebooks/02_Urban_CHM_GeoAI.jpg" class="img-fluid"></a></p>
-<p><a href="https://github.com/sonalispatial18/sonali-geo/blob/main/notebooks/02_Urban_geoai_vs_lidar_validation.ipynb"><img src="images/notebooks/02_Urban_GeoAI_CHM_Distribution.jpg" class="img-fluid"></a></p>
-<p><strong>GeoAI vs LiDAR — urban</strong> Pixel-level accuracy assessment of a deep learning canopy height model against LiDAR reference. R2, RMSE, bias, and spatial residual maps — showing exactly where and why the model succeeds or fails.</p>
-<p><a href="https://github.com/sonalispatial18/sonali-geo/blob/main/notebooks/02_Urban_geoai_vs_lidar_validation.ipynb">View notebook →</a></p>
-</div>
-<div class="g-col-6">
-<p><a href="https://github.com/sonalispatial18/sonali-geo/blob/main/notebooks/03_Forest_geoai_vs_lidar_validation.ipynb"><img src="images/notebooks/03_Forest_GeoAI_CHM.jpg" class="img-fluid"></a></p>
-<p><a href="https://github.com/sonalispatial18/sonali-geo/blob/main/notebooks/03_Forest_geoai_vs_lidar_validation.ipynb"><img src="images/notebooks/03_Forest_GeoAI_CHM_Distribution.jpg" class="img-fluid"></a></p>
-<p><strong>GeoAI vs LiDAR — forest</strong> Same validation for a forested site — contrasting error patterns reveal where deep learning models break down in natural canopy. Essential context for operational deployment decisions.</p>
-<p><a href="https://github.com/sonalispatial18/sonali-geo/blob/main/notebooks/03_Forest_geoai_vs_lidar_validation.ipynb">View notebook →</a></p>
-</div>
-</div>
 <hr>
+<section id="urban-tree-detection" class="level3">
+<h3 class="anchored" data-anchor-id="urban-tree-detection">🌳 Urban tree detection</h3>
+<p><em>CHM · watershed segmentation · prominence filter</em></p>
+<p>Fully automated individual tree inventory from raw <code>.laz</code> point cloud — locations, heights, crown extents. Directly usable for green infrastructure audits and urban forest management plans.</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/notebooks/01_tree_detection.jpg" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/notebooks/01_BU_Veg.jpg" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p><a href="https://github.com/sonalispatial18/sonali-geo/blob/main/notebooks/01_lidar_tree_detection.ipynb">View notebook →</a></p>
+<hr>
+</section>
+<section id="agb-and-carbon-mapping" class="level3">
+<h3 class="anchored" data-anchor-id="agb-and-carbon-mapping">🌲 AGB and carbon mapping</h3>
+<p><em>Repola allometrics · IPCC Tier-1 carbon conversion</em></p>
+<p>Wall-to-wall carbon stock map at individual crown resolution — reportable for voluntary carbon markets and municipal climate accounts.</p>
+<p><img src="images/notebooks/04_AGB.jpg" class="img-fluid"></p>
+<p><a href="https://github.com/sonalispatial18/sonali-geo/blob/main/notebooks/04_agb_carbon_mapping.ipynb">View notebook →</a></p>
+<hr>
+</section>
+<section id="geoai-vs-lidar-urban-site" class="level3">
+<h3 class="anchored" data-anchor-id="geoai-vs-lidar-urban-site">🛰️ GeoAI vs LiDAR — urban site</h3>
+<p><em>SSL deep learning model · R2 · RMSE · residual maps</em></p>
+<p>Pixel-level accuracy assessment of a deep learning canopy height model against LiDAR reference — showing exactly where and why the model succeeds or fails.</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/notebooks/02_Urban_CHM_GeoAI.jpg" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/notebooks/02_Urban_GeoAI_CHM_Distribution.jpg" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p><a href="https://github.com/sonalispatial18/sonali-geo/blob/main/notebooks/02_Urban_geoai_vs_lidar_validation.ipynb">View notebook →</a></p>
+<hr>
+</section>
+<section id="geoai-vs-lidar-forest-site" class="level3">
+<h3 class="anchored" data-anchor-id="geoai-vs-lidar-forest-site">🌿 GeoAI vs LiDAR — forest site</h3>
+<p><em>Bias analysis · spatial error structure</em></p>
+<p>Same validation for a forested site — contrasting error patterns reveal where deep learning models break down in natural canopy. Essential context for operational deployment decisions.</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/notebooks/03_Forest_GeoAI_CHM.jpg" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/notebooks/03_Forest_GeoAI_CHM_Distribution.jpg" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p><a href="https://github.com/sonalispatial18/sonali-geo/blob/main/notebooks/03_Forest_geoai_vs_lidar_validation.ipynb">View notebook →</a></p>
+<hr>
+</section>
 </section>
 <section id="past-works" class="level2">
 <h2 class="anchored" data-anchor-id="past-works">Past works</h2>
