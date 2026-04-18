@@ -169,3 +169,17 @@ hr {
     width: 100%;
   }
 }
+
+/* Wider content area */
+.page-columns .column-body,
+.page-columns .column-page,
+#quarto-content,
+.quarto-container {
+  max-width: 1200px !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+body > .page-columns {
+  max-width: 100% !important;
+}
