@@ -13,7 +13,7 @@ website:
       - text: "Background"
         href: "index.qmd#background"
       - text: "Publications"
-        href: "https://sites.google.com/view/sonali-geo/publications"
+        href: "index.qmd#publications"
       - text: "Contact"
         href: "mailto:ssonalipduoh@gmail.com"
     right:

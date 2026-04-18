@@ -1,12 +1,13 @@
 /* Base font — larger and more readable */
 body {
   font-size: 15px !important;
-  line-height: 1.85 !important;
+  line-height: 1.55 !important;
   color: #2c2c2c;
 }
 
 p, li, td {
   font-size: 15px !important;
+  line-height: 1.55 !important;
 }
 
 /* Profile section */
