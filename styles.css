@@ -124,6 +124,7 @@ hr {
   margin: 2rem 0;
   padding-bottom: 2rem;
   border-bottom: 1px solid #e8e8e8;
+  min-height: 300px;
 }
 
 .project-row.reverse {
@@ -132,10 +133,13 @@ hr {
 
 .project-row .project-img img {
   width: 100%;
-  height: auto;
+  height: 300px;
+  object-fit: contain;
+  background: #f8f9fa;
   border-radius: 8px;
   border: 1px solid #e0e0e0;
   display: block;
+  padding: 8px;
 }
 
 .project-row .project-img img {
@@ -161,7 +165,7 @@ hr {
     flex-direction: column;
   }
   .project-row .project-img {
-    flex: none;
+  flex: 0 0 45%;
     width: 100%;
   }
 }
