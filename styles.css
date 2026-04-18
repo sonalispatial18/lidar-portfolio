@@ -85,3 +85,26 @@ a:hover {
     text-align: center;
   }
 }
+
+/* Increase base font size */
+body {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+/* Project headings slightly larger */
+h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* Italic taglines more readable */
+h3 + p em, h3 + em {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Name on profile */
+h1 {
+  font-size: 2.2rem;
+}
