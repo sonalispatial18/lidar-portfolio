@@ -163,14 +163,13 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="the-problem">The problem</h2>
 <p>Urban planning decisions about green infrastructure are typically made using 2D land cover maps — which tell you <em>where</em> trees are but not <em>how tall</em> they are relative to buildings, <em>how dense</em> the canopy is, or <em>how the vertical structure of a neighbourhood</em> shapes the micro-environment experienced by both people and wildlife.</p>
 <p>In Nordic cities, where residential areas vary enormously — from low-rise detached housing with garden trees to mid-rise apartment blocks with courtyard vegetation to park-dominated neighbourhoods with mature forest canopy — this 2D view misses the ecologically and planning-relevant variation that actually matters.</p>
-<p>This postdoctoral research developed a novel approach to characterise <strong>3D urban heterogeneity</strong> from airborne LiDAR — simultaneously capturing building height, vegetation height, and their spatial interplay across residential neighbourhoods in Helsinki.</p>
+<p>This postdoctoral research developed a novel approach to characterise <strong>3D urban heterogeneity</strong> from airborne LiDAR — simultaneously capturing building height, vegetation height, and their spatial associations across residential neighbourhoods in Lahti.</p>
 <hr>
 </section>
 <section id="approach" class="level2">
 <h2 class="anchored" data-anchor-id="approach">Approach</h2>
-<p>Using LiDAR-derived point clouds processed on HPC infrastructure, I extracted height profiles for both buildings and vegetation at fine spatial resolution across the city. A deep learning clustering pipeline then grouped neighbourhoods into <strong>urban typologies</strong> — distinct structural configurations that recur across the city and carry different implications for ecological function.</p>
-<p><strong>Tools:</strong> Python · R · LiDAR · HPC (SLURM/Linux) · deep learning<br>
-<strong>Data:</strong> Airborne LiDAR point cloud · Helsinki City open data<br>
+<p>Using LiDAR-derived point clouds processed on HPC infrastructure, I extracted height profiles for both buildings and vegetation at fine spatial resolution across the city.</p>
+<p><strong>Tools:</strong> Python · R · LiDAR · HPC (Linux) <strong>Data:</strong> Airborne LiDAR point cloud<br>
 <strong>Scale:</strong> Individual neighbourhood buffers · city-wide coverage</p>
 <hr>
 </section>
@@ -238,18 +237,9 @@ ul.task-list li input[type="checkbox"] {
 <p>These typologies are not just descriptive — they are <strong>planning tools</strong>. By mapping which typology each neighbourhood belongs to, city planners can:</p>
 <ul>
 <li>Identify where nature-based solutions interventions would have the greatest impact (typology C and D areas with low green structure)</li>
-<li>Prioritise protection of high-value areas (typology E — mature forest-embedded neighbourhoods are irreplaceable on planning timescales)</li>
-<li>Set evidence-based targets for green infrastructure in new developments, referenced against the typology spectrum</li>
+<li>Set evidence-based targets for green infrastructure investments in new developments, referenced against the typology spectrum</li>
 </ul>
-<p>The typologies were synthesised to support <strong>nature-based solutions planning in Nordic residential areas</strong> — connecting 3D urban morphology to regulating and cultural ecosystem services as entry points to broader socio-ecological planning frameworks.</p>
-<hr>
-</section>
-<section id="publications-and-status" class="level2">
-<h2 class="anchored" data-anchor-id="publications-and-status">Publications and status</h2>
-<ul>
-<li><strong>Sharma, S.</strong>, Maija, T., and Andersson, E. (n.d.). Situating private urban green spaces — using transfer learning to characterise urban landscapes. Under review in <em>Urban Forestry and Urban Greening</em>.</li>
-</ul>
-<p><em>Biodiversity buffer analysis connecting these typologies to bird community patterns — coming soon.</em></p>
+<p>The typologies were synthesised to test and support <strong>biodiversity-sensitive planning in Nordic residential areas</strong> —</p>
 
 
 </section>

@@ -116,21 +116,21 @@
     "href": "projects/urban-typologies.html",
     "title": "3D Urban Typologies — Nordic Residential Areas",
     "section": "",
-    "text": "Urban planning decisions about green infrastructure are typically made using 2D land cover maps — which tell you where trees are but not how tall they are relative to buildings, how dense the canopy is, or how the vertical structure of a neighbourhood shapes the micro-environment experienced by both people and wildlife.\nIn Nordic cities, where residential areas vary enormously — from low-rise detached housing with garden trees to mid-rise apartment blocks with courtyard vegetation to park-dominated neighbourhoods with mature forest canopy — this 2D view misses the ecologically and planning-relevant variation that actually matters.\nThis postdoctoral research developed a novel approach to characterise 3D urban heterogeneity from airborne LiDAR — simultaneously capturing building height, vegetation height, and their spatial interplay across residential neighbourhoods in Helsinki."
+    "text": "Urban planning decisions about green infrastructure are typically made using 2D land cover maps — which tell you where trees are but not how tall they are relative to buildings, how dense the canopy is, or how the vertical structure of a neighbourhood shapes the micro-environment experienced by both people and wildlife.\nIn Nordic cities, where residential areas vary enormously — from low-rise detached housing with garden trees to mid-rise apartment blocks with courtyard vegetation to park-dominated neighbourhoods with mature forest canopy — this 2D view misses the ecologically and planning-relevant variation that actually matters.\nThis postdoctoral research developed a novel approach to characterise 3D urban heterogeneity from airborne LiDAR — simultaneously capturing building height, vegetation height, and their spatial associations across residential neighbourhoods in Lahti."
   },
   {
     "objectID": "projects/urban-typologies.html#the-problem",
     "href": "projects/urban-typologies.html#the-problem",
     "title": "3D Urban Typologies — Nordic Residential Areas",
     "section": "",
-    "text": "Urban planning decisions about green infrastructure are typically made using 2D land cover maps — which tell you where trees are but not how tall they are relative to buildings, how dense the canopy is, or how the vertical structure of a neighbourhood shapes the micro-environment experienced by both people and wildlife.\nIn Nordic cities, where residential areas vary enormously — from low-rise detached housing with garden trees to mid-rise apartment blocks with courtyard vegetation to park-dominated neighbourhoods with mature forest canopy — this 2D view misses the ecologically and planning-relevant variation that actually matters.\nThis postdoctoral research developed a novel approach to characterise 3D urban heterogeneity from airborne LiDAR — simultaneously capturing building height, vegetation height, and their spatial interplay across residential neighbourhoods in Helsinki."
+    "text": "Urban planning decisions about green infrastructure are typically made using 2D land cover maps — which tell you where trees are but not how tall they are relative to buildings, how dense the canopy is, or how the vertical structure of a neighbourhood shapes the micro-environment experienced by both people and wildlife.\nIn Nordic cities, where residential areas vary enormously — from low-rise detached housing with garden trees to mid-rise apartment blocks with courtyard vegetation to park-dominated neighbourhoods with mature forest canopy — this 2D view misses the ecologically and planning-relevant variation that actually matters.\nThis postdoctoral research developed a novel approach to characterise 3D urban heterogeneity from airborne LiDAR — simultaneously capturing building height, vegetation height, and their spatial associations across residential neighbourhoods in Lahti."
   },
   {
     "objectID": "projects/urban-typologies.html#approach",
     "href": "projects/urban-typologies.html#approach",
     "title": "3D Urban Typologies — Nordic Residential Areas",
     "section": "Approach",
-    "text": "Approach\nUsing LiDAR-derived point clouds processed on HPC infrastructure, I extracted height profiles for both buildings and vegetation at fine spatial resolution across the city. A deep learning clustering pipeline then grouped neighbourhoods into urban typologies — distinct structural configurations that recur across the city and carry different implications for ecological function.\nTools: Python · R · LiDAR · HPC (SLURM/Linux) · deep learning\nData: Airborne LiDAR point cloud · Helsinki City open data\nScale: Individual neighbourhood buffers · city-wide coverage"
+    "text": "Approach\nUsing LiDAR-derived point clouds processed on HPC infrastructure, I extracted height profiles for both buildings and vegetation at fine spatial resolution across the city.\nTools: Python · R · LiDAR · HPC (Linux) Data: Airborne LiDAR point cloud\nScale: Individual neighbourhood buffers · city-wide coverage"
   },
   {
     "objectID": "projects/urban-typologies.html#five-urban-typologies",
@@ -144,14 +144,7 @@
     "href": "projects/urban-typologies.html#why-this-matters-for-planning",
     "title": "3D Urban Typologies — Nordic Residential Areas",
     "section": "Why this matters for planning",
-    "text": "Why this matters for planning\nThese typologies are not just descriptive — they are planning tools. By mapping which typology each neighbourhood belongs to, city planners can:\n\nIdentify where nature-based solutions interventions would have the greatest impact (typology C and D areas with low green structure)\nPrioritise protection of high-value areas (typology E — mature forest-embedded neighbourhoods are irreplaceable on planning timescales)\nSet evidence-based targets for green infrastructure in new developments, referenced against the typology spectrum\n\nThe typologies were synthesised to support nature-based solutions planning in Nordic residential areas — connecting 3D urban morphology to regulating and cultural ecosystem services as entry points to broader socio-ecological planning frameworks."
-  },
-  {
-    "objectID": "projects/urban-typologies.html#publications-and-status",
-    "href": "projects/urban-typologies.html#publications-and-status",
-    "title": "3D Urban Typologies — Nordic Residential Areas",
-    "section": "Publications and status",
-    "text": "Publications and status\n\nSharma, S., Maija, T., and Andersson, E. (n.d.). Situating private urban green spaces — using transfer learning to characterise urban landscapes. Under review in Urban Forestry and Urban Greening.\n\nBiodiversity buffer analysis connecting these typologies to bird community patterns — coming soon."
+    "text": "Why this matters for planning\nThese typologies are not just descriptive — they are planning tools. By mapping which typology each neighbourhood belongs to, city planners can:\n\nIdentify where nature-based solutions interventions would have the greatest impact (typology C and D areas with low green structure)\nSet evidence-based targets for green infrastructure investments in new developments, referenced against the typology spectrum\n\nThe typologies were synthesised to test and support biodiversity-sensitive planning in Nordic residential areas —"
   },
   {
     "objectID": "index.html",
@@ -312,7 +305,14 @@
     "href": "projects/planning-framework.html#step-2-intervention-from-evidence-to-action",
     "title": "A Planning Framework for Mountain Cities",
     "section": "Step 2: Intervention — From Evidence to Action",
-    "text": "Step 2: Intervention — From Evidence to Action\nIntervention translates landscape evidence into actionable planning strategies.\nLandscape management  Develops alternative development pathways based on ecological capacity, planning needs, and stakeholder input where possible. Climate change projections are integrated to ensure plans remain realistic under future mountain conditions. See the Urban Growth Scenarios project.\n→ Defines how the landscape could be transformed\nImpacts of alternative scenarios  Quantifies what each pathway delivers. Ecosystem service supply is mapped across scenarios, making trade-offs between development and ecological function explicit and measurable. This step turns abstract futures into comparable outcomes, enabling informed decision-making. It also identifies where targeted NBS can offset unavoidable impacts. See the Ecosystem Services project.\n→ Reveals the consequences of each planning choice\nMulti-functional landscape design  Integrates all findings into a balanced, decision-ready strategy. Development is aligned with ecological capacity—supporting growth where the system can absorb it, and protection where it cannot.\nIf needed, scenarios are iteratively refined until a workable balance is achieved. → Delivers a spatial strategy ready for planning and policy integration —"
+    "text": "Step 2: Intervention — From Evidence to Action\nIntervention translates landscape evidence into actionable planning strategies.\nLandscape management  Develops alternative development pathways based on ecological capacity, planning needs, and stakeholder input where possible. Climate change projections are integrated to ensure plans remain realistic under future mountain conditions. See the Urban Growth Scenarios project.\n→ Defines how the landscape could be transformed\nImpacts of alternative scenarios  Quantifies what each pathway delivers. Ecosystem service supply is mapped across scenarios, making trade-offs between development and ecological function explicit and measurable. This step turns abstract futures into comparable outcomes, enabling informed decision-making. It also identifies where targeted NBS can offset unavoidable impacts. See the Ecosystem Services project.\n→ Reveals the consequences of each planning choice\nMulti-functional landscape design  Integrates all findings into a balanced, decision-ready strategy. Development is aligned with ecological capacity—supporting growth where the system can absorb it, and protection where it cannot.\nIf needed, scenarios are iteratively refined until a workable balance is achieved."
+  },
+  {
+    "objectID": "projects/planning-framework.html#delivers-a-spatial-strategy-ready-for-planning-and-policy-integration",
+    "href": "projects/planning-framework.html#delivers-a-spatial-strategy-ready-for-planning-and-policy-integration",
+    "title": "A Planning Framework for Mountain Cities",
+    "section": "→ Delivers a spatial strategy ready for planning and policy integration",
+    "text": "→ Delivers a spatial strategy ready for planning and policy integration"
   },
   {
     "objectID": "projects/planning-framework.html#three-projects.-one-loop.",
