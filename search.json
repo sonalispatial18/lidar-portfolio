@@ -53,7 +53,7 @@
     "href": "projects/urban-heat-island.html#note-on-publication-status",
     "title": "Urban Heat Island — Chandigarh and Satellite Towns",
     "section": "Note on publication status",
-    "text": "Note on publication status\nThis work was completed out of interest during doctoral studies but not submitted for publication. The spatial analysis, maps, and findings represent original research conducted solely by me during my time at Jawaharlal Nehru University."
+    "text": "Note on publication status\nThis work was completed out of interest during doctoral studies but not submitted for publication. The spatial analysis, maps, and findings represent original research conducted solely by me during COVID time."
   },
   {
     "objectID": "projects/ecosystem-services.html",
@@ -235,35 +235,35 @@
     "href": "projects/urban-growth-scenarios.html",
     "title": "What could the Western Himalayan landscapes look like by 2040?",
     "section": "",
-    "text": "Medium-sized Himalayan towns sit at a crossroads. They are growing fast enough to matter ecologically, but still small enough that planning decisions can meaningfully shape what they look like in twenty years. The question is not whether they will grow. They are and will continue growing tremendously. The question is how, and at what cost to the landscapes they depend on.\nTo make that question concrete, three plausible futures were modelled for Dharamshala and Pithoragarh up to 2040 — not to predict what will happen, but to show planners and policymakers what each path looks like on the ground before they commit to it."
+    "text": "Medium-sized cities in mountainous region sit at a crossroads. They are growing fast enough to matter ecologically, but still small enough that planning decisions can meaningfully shape what they look like in twenty years. The question is not whether they will grow. They are and will continue growing tremendously. The question is how, and at what cost to the landscapes they depend on.\nTo make that question concrete, three plausible futures were modelled for Dharamshala and Pithoragarh up to 2040 — not to predict what will happen, but to show planners and policymakers what each path looks like on the ground before they commit to it."
   },
   {
     "objectID": "projects/urban-growth-scenarios.html#the-question",
     "href": "projects/urban-growth-scenarios.html#the-question",
     "title": "What could the Western Himalayan landscapes look like by 2040?",
     "section": "",
-    "text": "Medium-sized Himalayan towns sit at a crossroads. They are growing fast enough to matter ecologically, but still small enough that planning decisions can meaningfully shape what they look like in twenty years. The question is not whether they will grow. They are and will continue growing tremendously. The question is how, and at what cost to the landscapes they depend on.\nTo make that question concrete, three plausible futures were modelled for Dharamshala and Pithoragarh up to 2040 — not to predict what will happen, but to show planners and policymakers what each path looks like on the ground before they commit to it."
+    "text": "Medium-sized cities in mountainous region sit at a crossroads. They are growing fast enough to matter ecologically, but still small enough that planning decisions can meaningfully shape what they look like in twenty years. The question is not whether they will grow. They are and will continue growing tremendously. The question is how, and at what cost to the landscapes they depend on.\nTo make that question concrete, three plausible futures were modelled for Dharamshala and Pithoragarh up to 2040 — not to predict what will happen, but to show planners and policymakers what each path looks like on the ground before they commit to it."
   },
   {
     "objectID": "projects/urban-growth-scenarios.html#what-was-done",
     "href": "projects/urban-growth-scenarios.html#what-was-done",
     "title": "What could the Western Himalayan landscapes look like by 2040?",
     "section": "What Was Done",
-    "text": "What Was Done\nA CA-Markov simulation framework was calibrated against observed land cover transitions from 2002 to 2021 (see the LULC Change project). Three scenarios were built by modifying the transition probability matrix to reflect different planning and governance assumptions:\n\n\n\n\n\n\n\n\n\nScenario\nUrban growth\nEcosystem protection\nLogic\n\n\n\n\nBAU — Business as Usual\nFollows historical trend\nNone\nGrowth continues unchecked\n\n\nESP — Ecosystem Protection\n20% less than BAU\nCropland converts to forest; barren land restored\nEcological Conservation priorities in force\n\n\nSED — Socio-economic Development\n20% more than BAU\nNone\nDevelopment-first priorities\n\n\n\nThe maps were designed from the outset to be used in stakeholder deliberation — translating model outputs into spatial narratives that planners, municipal authorities, and local communities can engage with directly, not just read as academic results.\nTools: IDRISI/TerrSet · ArcGIS · Data: Calibrated LULC maps 2002–2021 · topographic constraints"
+    "text": "What Was Done\nA CA-Markov simulation framework was calibrated in TerrSet software against observed land cover transitions from 2002 to 2021 (see the LULC Change project). Three scenarios were built by modifying the transition probability matrix to reflect different planning and governance assumptions:\n\n\n\n\n\n\n\n\n\nScenario\nUrban growth\nEcosystem protection\nLogic\n\n\n\n\nBAU — Business as Usual\nFollows historical trend\nNone\nGrowth continues unchecked\n\n\nESP — Ecosystem Protection\n20% less than BAU\nCropland converts to forest; barren land restored\nEcological Conservation priorities in force\n\n\nSED — Socio-economic Development\n20% more than BAU\nNone\nDevelopment-first priorities\n\n\n\nThe maps were designed from the outset to be used in stakeholder deliberation — translating model outputs into spatial narratives that planners, municipal authorities, and local communities can engage with directly.\nTools: IDRISI/TerrSet · ArcGIS · Data: Calibrated LULC maps 2002–2021 · Topographic constraints"
   },
   {
     "objectID": "projects/urban-growth-scenarios.html#projected-lulc-2040",
     "href": "projects/urban-growth-scenarios.html#projected-lulc-2040",
     "title": "What could the Western Himalayan landscapes look like by 2040?",
     "section": "Projected LULC 2040",
-    "text": "Projected LULC 2040\n\n\n\n\n\n\n\n\n\n\nFigure 1: Dharamshala and Pithoragarh — projected land cover in 2040 under three planning scenarios.\n\n\n\nThe contrast is visible. Under ESP, forest patches are retained and partially restored. The landscape in 2040 still carries ecological connectivity across slopes. Under SED, red built-up dominates valley floors and spreads onto terrain that was forested in 2021. BAU sits between the two, but still entails substantial and largely irreversible loss."
+    "text": "Projected LULC 2040\n\n\n\n\n\n\n\n\n\n\nFigure 1: Dharamshala and Pithoragarh — projected land cover in 2040 under three planning scenarios.\n\n\n\nThe contrast is visible. Under ESP, forest patches are retained and partially restored. Under SED, red built-up dominates valley floors and spreads onto terrain that was forested in 2021. BAU sits between the two, but still entails substantial and largely irreversible loss."
   },
   {
     "objectID": "projects/urban-growth-scenarios.html#what-planners-can-do-with-this",
     "href": "projects/urban-growth-scenarios.html#what-planners-can-do-with-this",
     "title": "What could the Western Himalayan landscapes look like by 2040?",
     "section": "What Planners Can Do With This",
-    "text": "What Planners Can Do With This\nSee the cost of inaction before it is too late The BAU scenario is not a neutral baseline. It is a projection of what happens if planning capacity stays where it is today. For Pithoragarh, that means the built-up footprint more than doubles in under twenty years, with vegetation and cropland absorbing the majority of that cost.\nUse ESP as a design target, not just a model output The ecosystem protection scenario shows that meaningful reversal is spatially possible. Forest gains of 24–31% are achievable if transition probabilities are actively managed through conservation zoning, reforestation incentives, and constrained infrastructure permitting. These are concrete, implementable policy levers.\nPlan by trajectory, not by average The three scenarios diverge most sharply in the outer zones of both cities, where planning authority is weakest and growth pressure is highest. That is exactly where scenario-informed zoning can have the most impact, because land conversion there is not yet irreversible.\nFeed scenarios into ecosystem service and climate risk assessments Each trajectory carries a different profile of flood regulation capacity, soil erosion, carbon storage, and local heat regulation. The LULC projections here connect directly to those calculations (see the Ecosystem Services project), giving EIA teams and municipal climate offices a spatially explicit basis for evaluating what each planning path actually costs in ecosystem terms."
+    "text": "What Planners Can Do With This\nSee the cost of inaction before it is too late The BAU scenario is not a neutral baseline. It is a projection of what happens if planning capacity stays where it is today. For Pithoragarh, that means the built-up footprint more than doubles in under twenty years, with vegetation and cropland absorbing the majority of that cost.\nUse ESP as a design target, not just a model output The ecosystem protection scenario shows that meaningful reversal is spatially possible. Forest gains of 24–31% are achievable if planning actively included conservation zoning, reforestation incentives, and constrained infrastructure permitting. These are concrete, implementable policy levers.\nPlan by trajectory, not by average The three scenarios diverge most sharply in the outer zones of both cities, where planning authority is weakest and growth pressure is highest. That is exactly where scenario-informed zoning can have the most impact, because land conversion there is needs more control to limit irreversible & similar mistakes.\nFeed scenarios into ecosystem service and climate risk assessments Each trajectory carries a different profile of flood regulation capacity, soil erosion, carbon storage, and local heat regulation. The LULC projections here connect directly to those calculations (see the Ecosystem Services project), giving EIA teams and municipal climate offices a spatially explicit basis for evaluating what each planning path actually costs in ecosystem terms."
   },
   {
     "objectID": "projects/urban-growth-scenarios.html#publication",
@@ -277,14 +277,14 @@
     "href": "projects/planning-framework.html",
     "title": "A Planning Framework for Mountain Cities",
     "section": "",
-    "text": "Mountain planning rarely fails for lack of ambition. It fails because ecological evidence and governance decisions run in separate tracks and never meet. This framework connects them — structured as two interlocking steps, with the Himalayan landscape at the centre and sustainable urban landscape development as the output."
+    "text": "Mountain planning often fails because ecological evidence and governance decisions run in separate tracks and never meet. This framework connects them — structured as two interlocking steps, with the Himalayan landscape at the centre and sustainable urban landscape development as the output."
   },
   {
     "objectID": "projects/planning-framework.html#the-problem-with-mountain-planning",
     "href": "projects/planning-framework.html#the-problem-with-mountain-planning",
     "title": "A Planning Framework for Mountain Cities",
     "section": "",
-    "text": "Mountain planning rarely fails for lack of ambition. It fails because ecological evidence and governance decisions run in separate tracks and never meet. This framework connects them — structured as two interlocking steps, with the Himalayan landscape at the centre and sustainable urban landscape development as the output."
+    "text": "Mountain planning often fails because ecological evidence and governance decisions run in separate tracks and never meet. This framework connects them — structured as two interlocking steps, with the Himalayan landscape at the centre and sustainable urban landscape development as the output."
   },
   {
     "objectID": "projects/planning-framework.html#the-framework",
