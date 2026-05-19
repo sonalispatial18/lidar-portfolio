@@ -13,8 +13,8 @@ website:
         href: index.qmd
       - text: "Projects"
         href: "index.qmd#projects"
-      - text: "Background"
-        href: "index.qmd#background"
+      - text: "Work Experiences"
+        href: "index.qmd#Work Experiences"
       - text: "Publications"
         href: "index.qmd#publications"
       - text: "Contact"

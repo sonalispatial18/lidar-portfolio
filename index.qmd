@@ -122,7 +122,7 @@ Mentored junior researchers in GIS workflows and spatial data processing.</p><di
 <p class="card-tags">LiDAR · Individual Tree Detection · Crown Delineation · Building Heights · Green Infrastructure </p>
 
 Urban green planners spend hundreds of Euros on manual tree surveys. This pipeline 
-turns a single open-access LiDAR file into a complete complete urban structure inventory
+turns a single open-access LiDAR file into a complete urban structure inventory
 — with shrubs as height-classified vegetation patches & 872 individual trees — with locations, heights, and crown extents; 
 alongside wall-to-wall building heights — in one reproducible notebook run. <br>
 Ready to feed directly into green infrastructure audits, urban heat mitigation plans, shadow modelling
@@ -212,7 +212,7 @@ model against airborne LiDAR as ground truth across a Helsinki forested site.
 
 *How different Housing Types look in 3-D?* <br><br>
 **3D built-green typologies — Nordic residential areas**
-<p class="card-tags">LiDAR · 3D Urban Typology · Green Infrastructure · Vegetation Structure ·Lahti</p>
+<p class="card-tags">LiDAR · 3D Urban Typology · Green Infrastructure · Vegetation Structure · Lahti</p>
 
 Not all residential areas relate to green infrastructure the same way — and planning 
 that ignores this distinction misses where and what investment is most needed.
@@ -238,7 +238,7 @@ need which vegetation layer — shrub, sub-canopy, or canopy — and where.
 
 A scalable approach to capture residential typology hybrid associations across the 
 Helsinki Metropolitan Area — combining deep learning with building and vegetation 
-height information at planning scale. Attempts to answer like : Can GeoAI help design better cities by 
+height information at planning scale. Attempts to answer questions like : Can GeoAI help design better cities by 
 identifying green infrastructure needs at planning scale? Do green infrastructure 
 needs fundamentally differ between detached housing and high-rise flats? Which 
 housing types need investment and what vegetation layers — shrub, sub-canopy, 
@@ -317,6 +317,31 @@ without compromising ecosystem resilience?
 </div>
 </div>
 
+
+<div class="project-card">
+<div class="project-card-img">
+
+![](images/compound/EPCS_EPRS_2021.jpg)
+
+</div>
+<div class="project-card-body">
+
+*Where do flood risk, erosion, and heat stress converge — and where do opportunities for nature's recovery lie?* <br><br>
+**Compound Hazard Zones — Western Himalaya**
+<p class="card-tags">Compound Hazard · Ecosystem Services · Nature-Based Solutions · Mountain Cities · Conservation & Restoration Planning · R</p>
+
+Mountain cities don't face one hazard at a time. Where flood buffering, 
+erosion control, and heat regulation collapse together, compound risk zones emerge. 
+This project makes that spatial convergence visible across Dharamshala and Pithoragarh — 
+identifying where nature's defences have failed simultaneously, 
+and translating that into conservation and restoration priorities directly 
+actionable for planners.
+
+[View full project →](projects/compound-hazard-himalaya.qmd)
+
+</div>
+</div>
+
 <div class="project-card">
 <div class="project-card-img">
 
@@ -355,7 +380,7 @@ No external damage curves; no global lookup tables — only locally-validated ev
 Mountain planning fails not for lack of ambition, but because 
 ecological evidence and governance run in separate tracks and never 
 meet. This framework connects them — linking landscape assessment, 
-scenario modelling, and governance into a planning decisions. 
+scenario modelling, and governance into planning decisions. 
 Applied across three projects in the Western Himalaya and 
 transferable to any rapidly urbanising mountain landscape.
 
