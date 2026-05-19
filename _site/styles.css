@@ -1,0 +1,162 @@
+/* Base font — larger and more readable */
+body {
+  font-size: 15px !important;
+  line-height: 1.55 !important;
+  color: #2c2c2c;
+}
+
+p, li, td {
+  font-size: 15px !important;
+  line-height: 1.55 !important;
+}
+
+/* Profile section */
+.columns {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 2rem 0;
+}
+
+/* Profile photo circular */
+.columns img {
+  border-radius: 50%;
+  width: 220px !important;
+  height: 220px !important;
+  object-fit: cover;
+  object-position: center top;
+  border: 4px solid #18bc9c;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.4rem !important;
+  font-weight: 700 !important;
+  color: #1a1a2e;
+  margin-bottom: 0.3rem;
+}
+
+h2 {
+  font-size: 1.7rem !important;
+  font-weight: 600 !important;
+  border-bottom: 3px solid #18bc9c;
+  padding-bottom: 0.4rem;
+  margin-top: 3rem;
+  color: #1a1a2e;
+}
+
+h3 {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  color: #1a1a2e;
+  margin-top: 2rem;
+}
+
+/* Italic taglines under project headings */
+h3 + p > em {
+  font-size: 0.9rem !important;
+  color: #18bc9c;
+  letter-spacing: 0.01em;
+}
+
+/* Quote */
+blockquote {
+  border-left: 4px solid #18bc9c;
+  background: #f0faf7;
+  padding: 1rem 1.5rem;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  font-size: 1.1rem !important;
+  color: #2c2c2c;
+  margin: 1.5rem 0;
+}
+
+/* Table */
+table {
+  width: 100%;
+  font-size: 16px !important;
+}
+
+th {
+  background-color: #f0faf7;
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: #18bc9c !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0e7c60 !important;
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  font-size: 15px !important;
+  font-weight: 500;
+}
+
+/* Section divider spacing */
+hr {
+  margin: 2.5rem 0;
+  border-color: #e0e0e0;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .columns {
+    flex-direction: column;
+    text-align: center;
+  }
+  h1 { font-size: 1.8rem !important; }
+  h2 { font-size: 1.4rem !important; }
+}
+
+/* Zigzag project layout */
+.project-row {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 2rem 0;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.project-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.project-row .project-img {
+  flex: 0 0 48%;
+}
+
+.project-row .project-img img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  display: block;
+}
+
+.project-row .project-info {
+  flex: 1;
+}
+
+.project-row .project-info h3 {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .project-row,
+  .project-row.reverse {
+    flex-direction: column;
+  }
+  .project-row .project-img {
+    flex: none;
+    width: 100%;
+  }
+}
