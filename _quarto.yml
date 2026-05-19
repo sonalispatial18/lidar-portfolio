@@ -1,7 +1,10 @@
 project:
   type: website
   output-dir: _site
-
+  render:
+    - "*.qmd"
+    - "projects/*.qmd"
+ 
 website:
   title: "Dr. Sonali Sharma"
   navbar:
@@ -21,15 +24,15 @@ website:
         href: https://github.com/sonalispatial18/sonali-geo
       - icon: linkedin
         href: https://www.linkedin.com/in/sonali-sharma-50220210b/
-
+ 
 format:
   html:
     theme: flatly
     toc: false
     css: styles.css
-
+ 
 execute:
   freeze: auto
   enabled: false
-
+ 
 jupyter: false
