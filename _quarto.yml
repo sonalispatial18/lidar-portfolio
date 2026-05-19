@@ -1,15 +1,6 @@
 project:
   type: website
   output-dir: _site
-  render:
-    - index.qmd
-    - projects/lulc-himalaya.qmd
-    - projects/urban-typologies.qmd
-    - projects/urban-growth-scenarios.qmd
-    - projects/ecosystem-services.qmd
-    - projects/planning-framework.qmd
-    - projects/urban-heat-island.qmd
-  
 
 website:
   title: "Dr. Sonali Sharma"
@@ -19,12 +10,12 @@ website:
         href: index.qmd
       - text: "Projects"
         href: "index.qmd#projects"
-      - text: "Experience"
-        href: "index.qmd#experience"
+      - text: "Background"
+        href: "index.qmd#background"
       - text: "Publications"
         href: "index.qmd#publications"
       - text: "Contact"
-        href: "index.qmd#contact"
+        href: "mailto:ssonalipduoh@gmail.com"
     right:
       - icon: github
         href: https://github.com/sonalispatial18/sonali-geo
@@ -36,7 +27,6 @@ format:
     theme: flatly
     toc: false
     css: styles.css
-    page-layout: full
 
 execute:
   freeze: auto
