@@ -1,10 +1,14 @@
-
 ---
 title: "Compound Hazard Zones in Himalayan Cities"
-subtitle: "Where Nature's Defences Fail Together — and What That Means for Mountain City Planning"
-tags: [Compound Hazard, Nature-Based Solutions, Conservation Planning, Restoration Planning, Western Himalaya, Mountain Cities]
-
+subtitle: "Where Defences of Nature Fail Together — and What That Means for Mountain City Planning"
+tags:
+  - "Compound Hazard"
+  - "Nature-Based Solutions"
+  - "Conservation & Restoration Planning"
+  - "Western Himalaya"
+  - "Mountain Cities"
 ---
+
 ## The problem
 
 Urban risk frameworks treat floods, soil erosion, and heat stress as separate hazards — mapped by separate agencies, addressed by separate budgets.
@@ -12,13 +16,14 @@ But mountain cities don't face one hazard at a time — and these hazards don't 
 Steep slopes, fragile geology, and monsoon rainfall mean these hazards are structurally coupled long before urbanisation begins. A slope that sheds water fast also erodes fast. So, the 
 biophysical baseline is already precarious.
 
-Urbanisation then amplifies what nature has already made vulnerable. Urbanisation-induced land cover changes accelerates runoff, destabilises slopes, replaces cooling vegetation with heat-retaining surfaces 
+Urbanisation then amplifies what nature has already made vulnerable. Urbanisation-induced land cover changes accelerates runoff, destabilises slopes, replaces cooling vegetation with heat-retaining surfaces. 
 The same patch of land loses its flood buffer, its erosion shield, and its cooling function at once. 
 This is not coincidence. It is a consequence of building in landscapes where natural and human drivers of risk point in the same direction.
 
 This project asks: *Where do these hazards converge, and What does that mean for planning?*
 
----
+***
+
 ## Framework: Regulating Ecosystem Service loss as multi-hazard proxy
 
 In mountainous regions, Regulating Ecosystem Services play crucial roles in moderating the extreme events (like natural disasters) and mitigating the climate change impacts. 
@@ -28,37 +33,36 @@ as spatially explicit proxies for natural hazard buffering capacity.
 Where a service is low, the landscape has lost its ability to buffer that hazard — and that loss is mappable, measurable, and actionable.
 
 | Ecosystem service | Hazard it buffers | Coldspot means |
-
-|---|---|---|
+|-------------------|-------------------|----------------|
 | Flood Regulation (FR) | Fluvial flooding | Elevated flood hazard |
 | Soil Erosion Regulation (SER) | Landslide and erosion risk | Elevated erosion hazard |
 | Local Climate Regulation (LCR) | Urban heat stress | Elevated heat hazard |
 | Carbon Sequestration (CS) | Ecosystem degradation | Supporting indicator |
 
-**Compound risk zones emerge where coldspots of multiple services spatially overlap** — here the landscape has simultaneously lost its flood buffer, erosion shield, carbon sinks, and cooling function.
+Compound risk zones emerge where coldspots of multiple services spatially overlap — here the landscape has simultaneously lost its flood buffer, erosion shield, carbon sinks, and cooling function.
 
----
+***
 
 ## Step 1 — Four hazard proxies
 
-I modelled and mapped all four RES across Dharamshala and Pithoragarh at four time points.
+I modelled and mapped all four RES across Dharamshala and Pithoragarh at four time points
 and identified statistically significant spatial clusters of high-value (**hotspots**) and low-value (**coldspots**).
 
 → [View hotspot and coldspot maps for all four services](https://sonalispatial18.github.io/sonali-geo/projects/ecosystem-services.html#hotspot-and-coldspot-analysis)
 
----
+***
 
 ## Step 2 — Where hazards converge: the compound risk map
 
 Overlaying the four maps reveals two planning-critical zone types:
 
 - **EPCS** — Ecological Priority Conservation Sites: where multiple service hotspots overlap. Nature's defences are intact — the landscape's remaining protective buffers.
-- **EPRS** — Ecological Priority Restoration Sites: where multiple service coldspots overlap. **These are the compound hazard zones** — 
-simultaneously exposed to elevated flood, erosion, low carbon sinks, and heat risk.
+- **EPRS** — Ecological Priority Restoration Sites: where multiple service coldspots overlap. **These are the compound hazard zones** — simultaneously exposed to elevated flood, erosion, low carbon sinks, and heat risk.
 
 ![Spatially overlaid hotspot and coldspot distribution across four RES, and identified EPCS and EPRS in Dharamshala & Pithoragarh.](../images_highquality/compound/EKRA_EPPA_2021.jpg)
 *Compound hazard zones (EPRS, blue) and conservation priority zones (EPCS, orange)*
----
+
+***
 
 ## Two cities, two spatial stories
 
@@ -70,25 +74,25 @@ The landscape still has more intact buffers than degraded ones — but the margi
 
 **Pithoragarh** tells a different story.
 
- The city core — dense built-up land — sits at the heart of the compound hazard zone, where all four ecosystem services have collapsed together. 
- Compound hazard zones have overtaken conservation zones by area. 
- The landscape has already bifurcated: one zone that needs protecting, and a separate zone that urgently needs restoring. There is no trade-off left to navigate.
+The city core — dense built-up land — sits at the heart of the compound hazard zone, where all four ecosystem services have collapsed together. 
+Compound hazard zones have overtaken conservation zones by area. 
+The landscape has already bifurcated: one zone that needs protecting, and a separate zone that urgently needs restoring. There is no trade-off left to navigate.
 
----
+***
 
 ## What this means for planning
 
 Identifying compound hazard zones is only useful if it changes what gets built, protected, or restored — and where.
 
 | Zone | Status | Planning response |
-|---|---|---|
+|------|--------|-------------------|
 | **EPCS** | Multiple ecosystem buffers intact | **Protect** — buffer zone designation, development controls |
 | **EPRS** | Multiple hazards converging | **Restore** — nature-based solutions, green infrastructure, targeted NbS investment |
 
 The spatial evidence exists at the resolution planners need. How this translates into governance-ready strategies — from landscape assessment to scenario-based decision-making — 
 is detailed in the [Planning Framework for Mountain Cities](../projects/planning-framework.html).
 
----
+***
 
 ## Key finding
 
@@ -98,6 +102,3 @@ The bottleneck is the translation: from individual hazard maps to compound risk 
 
 Mountain cities are not just facing more frequent hazards. They are facing **simultaneous ones — in the same places, driven by the same process**:
 unplanned urban growth eroding the natural systems that once provided protection.
-
-
----
