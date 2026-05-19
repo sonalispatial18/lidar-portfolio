@@ -355,25 +355,25 @@ body > .page-columns {
   margin-top: 0 !important;
 }
 
-/* ── Interests clean two-column grid ── */
+/* ── Interests — pill chips (replaces .interests-grid) ── */
 .interests-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.35rem 2rem;
-  padding-left: 1.2rem;
-  list-style: disc;
-  margin-top: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.8rem;
 }
 
 .interests-grid li {
-  padding: 0.1rem 0;
-  line-height: 1.45;
-}
-
-@media (max-width: 700px) {
-  .interests-grid {
-    grid-template-columns: 1fr;
-  }
+  font-size: 0.85rem;
+  font-weight: 500;
+  background: #f0faf7;
+  color: #0e7c60;
+  border: 1px solid #c8ede4;
+  border-radius: 20px;
+  padding: 4px 14px;
+  line-height: 1.5;
 }
 
 @media (max-width: 700px) {
