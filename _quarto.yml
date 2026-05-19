@@ -8,18 +8,18 @@ project:
 website:
   title: "Dr. Sonali Sharma"
   navbar:
-    left:
-      - text: "Home"
-        href: index.qmd
-      - text: "Projects"
-        href: "index.qmd#projects"
-      - text: "Work Experiences"
-        href: "index.qmd#Work Experiences"
-      - text: "Publications"
-        href: "index.qmd#publications"
-      - text: "Contact"
-        href: "mailto:ssonalipduoh@gmail.com"
-    right:
+  left:
+    - text: "Home"
+      href: index.qmd
+    - text: "Work Experiences"
+      href: "index.qmd#work-experiences"
+    - text: "Projects"
+      href: "index.qmd#projects"
+    - text: "Publications"
+      href: "index.qmd#publications"
+    - text: "Contact"
+      href: "mailto:ssonalipduoh@gmail.com"
+      right:
       - icon: github
         href: https://github.com/sonalispatial18/sonali-geo
       - icon: linkedin
